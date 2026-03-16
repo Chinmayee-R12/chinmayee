@@ -3,6 +3,10 @@ wget https://get.jenkins.io/war-stable/latest/jenkins.war
 echo "Hello from github project"
 echo "CI/CD pipeline executed successfully"
 
+
+
+
+
 pipeline {
   agent any
 
@@ -21,3 +25,4 @@ pipeline {
     }
   }
 }
+..
